@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider
+END
+CapsExtensionProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/CapsExtensionProvider.java
+END
+XHTMLExtensionProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/XHTMLExtensionProvider.java
+END
+AdHocCommandDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/AdHocCommandDataProvider.java
+END
+StreamInitiationProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/StreamInitiationProvider.java
+END
+PEPProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/PEPProvider.java
+END
+MUCOwnerProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/MUCOwnerProvider.java
+END
+DiscoverInfoProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/DiscoverInfoProvider.java
+END
+DiscoverItemsProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/DiscoverItemsProvider.java
+END
+EmbeddedExtensionProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/EmbeddedExtensionProvider.java
+END
+MUCAdminProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/MUCAdminProvider.java
+END
+MessageEventProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/MessageEventProvider.java
+END
+MultipleAddressesProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/MultipleAddressesProvider.java
+END
+DelayInfoProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/DelayInfoProvider.java
+END
+DataFormProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/DataFormProvider.java
+END
+RosterExchangeProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/RosterExchangeProvider.java
+END
+HeaderProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/HeaderProvider.java
+END
+PrivateDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/PrivateDataProvider.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/package.html
+END
+BytestreamsProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/BytestreamsProvider.java
+END
+DelayInformationProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/DelayInformationProvider.java
+END
+IBBProviders.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/IBBProviders.java
+END
+VCardProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/VCardProvider.java
+END
+HeadersProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/HeadersProvider.java
+END
+MUCUserProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/provider/MUCUserProvider.java
+END

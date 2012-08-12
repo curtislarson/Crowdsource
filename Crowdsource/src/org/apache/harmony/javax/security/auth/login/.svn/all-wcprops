@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login
+END
+AppConfigurationEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/AppConfigurationEntry.java
+END
+CredentialNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/CredentialNotFoundException.java
+END
+CredentialException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/CredentialException.java
+END
+AccountLockedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/AccountLockedException.java
+END
+AccountExpiredException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/AccountExpiredException.java
+END
+Configuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/Configuration.java
+END
+LoginException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/LoginException.java
+END
+LoginContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/LoginContext.java
+END
+AccountNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/AccountNotFoundException.java
+END
+FailedLoginException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/FailedLoginException.java
+END
+AccountException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/AccountException.java
+END
+CredentialExpiredException.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/login/CredentialExpiredException.java
+END

@@ -1,0 +1,102 @@
+package com.quackware.crowdsource.old;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+/*
+import org.ksoap2.SoapEnvelope;
+import org.ksoap2.serialization.PropertyInfo;
+import org.ksoap2.serialization.SoapObject;
+import org.ksoap2.serialization.SoapPrimitive;
+import org.ksoap2.serialization.SoapSerializationEnvelope;
+import org.ksoap2.transport.HttpTransportSE;
+*/
+import android.util.Log;
+
+public class SOAPObject {
+	
+    private static final String METHOD_NAME = "ReceiveXML";
+    private static final String METHOD_NAME_POLL = "CheckForMessages";
+    private static final String NAMESPACE = "http://tempuri.org/";
+    private static final String URL = "http://141.166.228.86/CrowdSourceService/CrowdSourceService.asmx";
+    
+	private String _string;
+	private int _msgType;
+	
+	public SOAPObject(String incString, int msgType)
+	{
+		_string = incString;
+		_msgType = msgType;
+	}
+	
+	
+	public boolean send()
+	{
+		/*try
+		{
+			SoapObject request = new SoapObject(NAMESPACE,METHOD_NAME);
+
+			PropertyInfo pi = new PropertyInfo();
+			pi.setName("xml");
+			pi.setValue(_string);
+			request.addProperty(pi);
+
+			SoapSerializationEnvelope envelope = 
+				new SoapSerializationEnvelope(SoapEnvelope.VER11);
+			envelope.dotNet = true;
+			envelope.setOutputSoapObject(request);
+
+			HttpTransportSE androidHttpTransport = new HttpTransportSE(URL);
+			androidHttpTransport.call(NAMESPACE + METHOD_NAME, envelope);
+			SoapPrimitive result = (SoapPrimitive)envelope.getResponse();
+			boolean returnValue = (Boolean)result.getAttribute(0);
+			return returnValue;
+	    }
+	    catch(Exception ex)
+	    {
+	    	return false;
+	    }*/
+		return false;
+	}
+	
+	public ArrayList<Speech> pollMessage()
+	{
+		/*try
+		{
+			SoapObject request = new SoapObject(NAMESPACE,METHOD_NAME_POLL);
+
+			PropertyInfo pi = new PropertyInfo();
+			pi.setName("xml");
+			pi.setValue(_string);
+			request.addProperty(pi);
+
+			SoapSerializationEnvelope envelope = 
+				new SoapSerializationEnvelope(SoapEnvelope.VER11);
+			envelope.dotNet = true;
+			envelope.setOutputSoapObject(request);
+			
+			envelope.addMapping(NAMESPACE, "Speech", new Speech().getClass());
+			
+			HttpTransportSE androidHttpTransport = new HttpTransportSE(URL);
+			androidHttpTransport.call(NAMESPACE + METHOD_NAME_POLL, envelope);
+			SoapObject result = (SoapObject)envelope.getResponse();
+			if(result == null || result.getPropertyCount() < 1)
+			{
+				return null;
+			}
+			ArrayList<Speech> messageList = new ArrayList<Speech>();
+			for(int i = 0;i<result.getPropertyCount();i++)
+			{
+				SoapObject so = (SoapObject)result.getProperty(i);
+				messageList.add((Speech)so.getProperty(0));
+			}
+			return messageList;
+	    }
+		catch(Exception ex)
+		{
+			return null;
+		}*/
+		return null;
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.quackware.crowdsource.old;
+
+public class Speech {
+	
+	private String _message;
+	private String _pID;
+	
+	public Speech()
+	{
+		
+	}
+	public Speech(String message, String pID)
+	{
+		_message = message;
+		_pID = pID;
+	}
+	
+	public String getMessage()
+	{
+		return _message;
+	}
+	
+	public String getPID()
+	{
+		return _pID;
+	}
+
+}

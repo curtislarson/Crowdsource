@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="ERROR_ACCOUNT_CREATION">Unable to create account, either your network is not working or the username is already taken.</string>
+<string name="SUCCESSFUL_ACCOUNT_CREATION">Account created successfully, you may now login.</string>
+<string name="ERROR_BADFIELDS">Invalid or missing data, please try again.</string>
+<string name="ERROR_DISPLAY_MAP">Unable to display map.</string>
+<string name="ERROR_CHANGE_PASSWORD">Unable to change password.</string>
+<string name="ERROR_PREVIOUS_LOCATION">Unable to retrieve current location, using most recent previous location.</string>
+<string name="SUCCESSFULL_CHANGE_PASSWORD">Password changed successfully.</string>
+<string name="ERROR_ANON_EDIT">You are currently anonymous and cannot edit account information.</string>
+<string name="ERROR_LOGIN">Unable to login, please try again.</string>
+<string name="ERROR_MESSAGE_YOURSELF">You cannot message yourself!</string>
+<string name="ERROR_INT">Please provide a valid integer.</string>
+<string name="ERROR_LOCATION">Unable to find location, please check your phone settings and try again.</string>
+<string name="ERROR_LOGIN_ANON">Unable to login anonymously, please try again.</string>
+<string name="ERROR_CONNECT_ROOM">Unable to connect to room, please try again.</string>
+<string name="ERROR_NETWORK_DISABLED">Network connections are not enabled in your phone, would you like to go to network settings?</string>
+<string name="ERROR_GPS_DISABLED">GPS connections are not enabled in your phone, would you like to enable them?</string>
+<string name="ERROR_NO_NETWORK">Your phone does not support networks, now closing this application.</string>
+<string name="ERROR_NO_GPS">Your phone does not support GPS, your location will not be exact.</string>
+<string name="WARNING_GPS">Your location will not be exact until you enable GPS.</string>
+<string name="ERROR_SHOW_PROFILE">Unable to display profile.</string>
+<string name="ERROR_SEND_MESSAGE">Unable to send message.</string>
+<string name="ERROR_CONNECT_SERVER">Unable to connect to server, please restart CrowdSource or contact the developer.</string>
+<string name="ERROR_CREATE_CROWD">Unable to create a crowd, please login and try again.</string>
+</resources>

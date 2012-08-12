@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth
+END
+Subject.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/Subject.java
+END
+PrivateCredentialPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/PrivateCredentialPermission.java
+END
+DestroyFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/DestroyFailedException.java
+END
+RefreshFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/RefreshFailedException.java
+END
+AuthPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/AuthPermission.java
+END
+Refreshable.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/Refreshable.java
+END
+Destroyable.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/Destroyable.java
+END
+SubjectDomainCombiner.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/SubjectDomainCombiner.java
+END

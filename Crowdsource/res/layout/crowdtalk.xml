@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/crowdTalkLayout"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center">
+
+	<ListView 
+	android:fadingEdgeLength="16dip" 
+	android:stackFromBottom="true" 
+	android:id="@+id/in" 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent" 
+	android:background="@android:color/white" 
+	android:layout_weight="2" 
+	android:transcriptMode="alwaysScroll" 
+	android:scrollbarStyle="insideOverlay" 
+	android:cacheColorHint="@android:color/white">
+	</ListView>
+
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:baselineAligned="false"
+	android:orientation="horizontal"
+	android:background="#545454">
+	<EditText android:id="@+id/edtInput" 
+	android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		 android:layout_weight="1"
+		android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine|textImeMultiLine"
+		android:imeOptions="actionSend|flagNoEnterAction" 
+		android:maxLines="4"
+		android:maxLength="2000" 
+		android:hint="@string/compose_hint" />
+	<Button android:id="@+id/btnSend" 
+	android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		 android:text="@string/send" />
+</LinearLayout>
+</LinearLayout>
+    

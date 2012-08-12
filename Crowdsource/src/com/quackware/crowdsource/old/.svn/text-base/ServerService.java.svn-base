@@ -1,0 +1,159 @@
+package com.quackware.crowdsource.old;
+
+import android.app.Service;
+import android.content.Intent;
+import android.location.Location;
+import android.os.Binder;
+import android.os.Handler;
+import android.os.IBinder;
+import android.os.Message;
+import android.os.Messenger;
+import android.os.RemoteException;
+import android.util.Log;
+
+
+
+
+
+public class ServerService extends Service {
+
+	//Different messages that the client can send to the server.
+	static final int MSG_INITIAL_CONNECT = 1;
+	static final int MSG_SEND_MSG = 2;
+	static final int MSG_POLL_MSG = 3;
+	static final int MSG_BLOCK_USER = 4;
+	static final int MSG_REQUEST_NEW_CROWD = 5;
+	static final int MSG_REPORT_CONTENT = 6;
+	static final int MSG_DISCONNECT = -1;
+
+	static final String ACTION_CONNECT = "connect";
+	static final String ACTION_DISCONNECT = "disconnect";
+	static final String ACTION_POLL = "poll";
+	static final String ACTION_REPORT_CONTENT = "reportcontent";
+	static final String ACTION_BLOCK_USER = "blockuser";
+	static final String ACTION_SEND_MESSAGE = "sendmessage";
+	static final String BLANK_MESSAGE = "";
+
+
+	Messenger mService = null;
+
+	@Override
+	public IBinder onBind(Intent intent) {
+		return mMessenger.getBinder();
+	}
+
+	public class LocalBinder extends Binder {
+		ServerService getService() {
+			return ServerService.this;
+		}
+	}
+
+	@Override
+	public void onCreate() {
+
+	}
+
+
+
+
+	final Messenger mMessenger = new Messenger(new IncomingHandler());
+
+	/**
+	 * Handler of incoming messages from clients.
+	 */
+	class IncomingHandler extends Handler {
+		@Override
+		public void handleMessage(Message msg) {
+			mService = msg.replyTo;
+			XMLRequest request = (XMLRequest)msg.obj;
+			Message m;
+			//No matter what is sent we can just pass it on to the server.
+			SOAPObject so = new SOAPObject(request.toXML(),msg.what);
+
+			switch (msg.what) 
+			{
+			case MSG_INITIAL_CONNECT:
+				Log.i("server","Sending initial connect message");
+				m = Message.obtain(null, ServerService.MSG_INITIAL_CONNECT,so.send());
+				m.replyTo = mMessenger;
+				try {
+					mService.send(m);
+				} catch (RemoteException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+
+				break;
+			case MSG_DISCONNECT:
+				Log.i("server","Sending disconnect message");
+				if(so.send())
+				{
+					//Everything is good, we disconnected from the server.
+				}
+				else
+				{
+					//Something went wrong, oh well?
+				}
+				break;
+			case MSG_SEND_MSG:
+
+				Log.i("server","Sending message message");
+				if(so.send())
+				{
+					//Ok, so we sent the message successfully.
+					//We want to update our SoapTalk
+				}
+				break;
+			case MSG_POLL_MSG:
+				//This is the special case
+				Log.i("server","Sending poll message");
+				m = Message.obtain(null,ServerService.MSG_POLL_MSG,so.pollMessage());
+				m.replyTo = mMessenger;
+				try 
+				{
+					mService.send(m);	
+				} 
+				catch (RemoteException e) 
+				{
+
+				}
+				break;
+			case MSG_BLOCK_USER:
+				Log.i("server","Sending block user message");
+				m = Message.obtain(null, ServerService.MSG_INITIAL_CONNECT,so.send());
+				m.replyTo = mMessenger;
+				try {
+					mService.send(m);
+				} catch (RemoteException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				break;
+			case MSG_REQUEST_NEW_CROWD:
+				if(so.send())
+				{
+					//We are now moved to a new crowd, do the appropriate stuff in CrowdTalk
+				}
+				else
+				{
+					//Notify the user that they cannot join a new crowd...
+				}
+				Log.i("server","Sending request new crowd message");
+				break;
+			case MSG_REPORT_CONTENT:    
+				m = Message.obtain(null, ServerService.MSG_INITIAL_CONNECT,so.send());
+				m.replyTo = mMessenger;
+				try {
+					mService.send(m);
+				} catch (RemoteException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				break;
+			default:
+				super.handleMessage(msg);
+			}
+
+		}
+	}
+}

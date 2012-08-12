@@ -1,0 +1,36 @@
+package com.quackware.crowdsource.old;
+
+public class Utility {
+	
+	static int _pollInc = 0;
+	static int pollNumberTracker = 0;
+	
+	static int[] pollNumbers = new int[] {1,3,5,10,15,20,25,30};
+	
+	public static int getPollTime(int oldPollTime, int pollInc)
+	{
+		_pollInc = pollInc;
+		if(_pollInc < 3)
+		{
+			_pollInc++;
+			return oldPollTime;
+		}
+		else if(_pollInc == 3)
+		{
+			_pollInc = 0;
+			return pollNumbers[pollNumberTracker] * 1000;
+		}
+		return 0;
+	}
+	
+	public static int getPollInc()
+	{
+		return _pollInc;
+	}
+	
+	public static void resetPollTracker()
+	{
+		pollNumberTracker = 0;
+	}
+
+}

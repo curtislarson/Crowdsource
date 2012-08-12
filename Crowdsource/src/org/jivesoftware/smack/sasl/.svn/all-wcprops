@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/sasl
+END
+SASLGSSAPIMechanism.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/sasl/SASLGSSAPIMechanism.java
+END
+SASLCramMD5Mechanism.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/sasl/SASLCramMD5Mechanism.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/sasl/package.html
+END
+SASLExternalMechanism.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/sasl/SASLExternalMechanism.java
+END
+SASLAnonymous.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/sasl/SASLAnonymous.java
+END
+SASLPlainMechanism.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/sasl/SASLPlainMechanism.java
+END
+SASLDigestMD5Mechanism.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/sasl/SASLDigestMD5Mechanism.java
+END
+SASLMechanism.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/sasl/SASLMechanism.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/51/src/com/quackware/crowdsource/ui
+END
+HelpActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/HelpActivity.java
+END
+CrowdMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/CrowdMap.java
+END
+CrowdChoice.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/CrowdChoice.java
+END
+ItemizedOverlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/ItemizedOverlay.java
+END
+CrowdTalk.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/CrowdTalk.java
+END
+CrowdSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/CrowdSource.java
+END
+CrowdPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/CrowdPreference.java
+END
+ProfileActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/ProfileActivity.java
+END
+MessageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/MessageActivity.java
+END
+PrivateMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/PrivateMessage.java
+END
+PrivateMessageList.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ui/PrivateMessageList.java
+END

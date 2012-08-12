@@ -1,0 +1,677 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS
+END
+RPRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/RPRecord.java
+END
+TSIGRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/TSIGRecord.java
+END
+TTL.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/TTL.java
+END
+UDPClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/UDPClient.java
+END
+X25Record.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/X25Record.java
+END
+Zone.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Zone.java
+END
+Name.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Name.java
+END
+NameTooLongException.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/NameTooLongException.java
+END
+Update.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Update.java
+END
+MDRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/MDRecord.java
+END
+IPSECKEYRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/IPSECKEYRecord.java
+END
+OPTRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/OPTRecord.java
+END
+SSHFPRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SSHFPRecord.java
+END
+SetResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SetResponse.java
+END
+Master.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Master.java
+END
+NSEC3Record.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/NSEC3Record.java
+END
+WireParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/WireParseException.java
+END
+DSRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/DSRecord.java
+END
+SIG0.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SIG0.java
+END
+Options.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Options.java
+END
+TSIG.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/TSIG.java
+END
+ResolverListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/ResolverListener.java
+END
+NULLRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/NULLRecord.java
+END
+ZoneTransferException.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/ZoneTransferException.java
+END
+ResolveThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/ResolveThread.java
+END
+NSRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/NSRecord.java
+END
+ARecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/ARecord.java
+END
+WKSRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/WKSRecord.java
+END
+KEYBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/KEYBase.java
+END
+Opcode.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Opcode.java
+END
+MINFORecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/MINFORecord.java
+END
+MGRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/MGRecord.java
+END
+DHCIDRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/DHCIDRecord.java
+END
+DNSOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/DNSOutput.java
+END
+DNSKEYRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/DNSKEYRecord.java
+END
+Section.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Section.java
+END
+Cache.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Cache.java
+END
+SIGRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SIGRecord.java
+END
+Mnemonic.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Mnemonic.java
+END
+TXTRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/TXTRecord.java
+END
+TXTBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/TXTBase.java
+END
+DNSInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/DNSInput.java
+END
+ExtendedResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/ExtendedResolver.java
+END
+EmptyRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/EmptyRecord.java
+END
+AFSDBRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/AFSDBRecord.java
+END
+TKEYRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/TKEYRecord.java
+END
+Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Type.java
+END
+Tokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Tokenizer.java
+END
+MRRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/MRRecord.java
+END
+U16NameBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/U16NameBase.java
+END
+DClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/DClass.java
+END
+Serial.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Serial.java
+END
+AAAARecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/AAAARecord.java
+END
+Header.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Header.java
+END
+Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Client.java
+END
+MFRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/MFRecord.java
+END
+TypeBitmap.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/TypeBitmap.java
+END
+SRVRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SRVRecord.java
+END
+DNSSEC.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/DNSSEC.java
+END
+ResolverConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/ResolverConfig.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Message.java
+END
+Flags.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Flags.java
+END
+HINFORecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/HINFORecord.java
+END
+Compression.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Compression.java
+END
+A6Record.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/A6Record.java
+END
+MBRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/MBRecord.java
+END
+ISDNRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/ISDNRecord.java
+END
+NSAPRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/NSAPRecord.java
+END
+SingleCompressedNameBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SingleCompressedNameBase.java
+END
+SingleNameBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SingleNameBase.java
+END
+Credibility.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Credibility.java
+END
+DNAMERecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/DNAMERecord.java
+END
+GPOSRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/GPOSRecord.java
+END
+ReverseMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/ReverseMap.java
+END
+SPFRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SPFRecord.java
+END
+InvalidTTLException.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/InvalidTTLException.java
+END
+SimpleResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SimpleResolver.java
+END
+RelativeNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/RelativeNameException.java
+END
+CERTRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/CERTRecord.java
+END
+NSAP_PTRRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/NSAP_PTRRecord.java
+END
+LOCRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/LOCRecord.java
+END
+KEYRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/KEYRecord.java
+END
+NSEC3PARAMRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/NSEC3PARAMRecord.java
+END
+APLRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/APLRecord.java
+END
+ExtendedFlags.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/ExtendedFlags.java
+END
+NAPTRRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/NAPTRRecord.java
+END
+TCPClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/TCPClient.java
+END
+FormattedTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/FormattedTime.java
+END
+TextParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/TextParseException.java
+END
+Resolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Resolver.java
+END
+InvalidDClassException.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/InvalidDClassException.java
+END
+UNKRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/UNKRecord.java
+END
+RRset.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/RRset.java
+END
+SIGBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SIGBase.java
+END
+RRSIGRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/RRSIGRecord.java
+END
+CNAMERecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/CNAMERecord.java
+END
+DLVRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/DLVRecord.java
+END
+PTRRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/PTRRecord.java
+END
+Rcode.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Rcode.java
+END
+InvalidTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/InvalidTypeException.java
+END
+KXRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/KXRecord.java
+END
+ZoneTransferIn.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/ZoneTransferIn.java
+END
+MXRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/MXRecord.java
+END
+NXTRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/NXTRecord.java
+END
+Lookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Lookup.java
+END
+PXRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/PXRecord.java
+END
+SOARecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/SOARecord.java
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Address.java
+END
+NSECRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/NSECRecord.java
+END
+RTRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/RTRecord.java
+END
+Generator.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Generator.java
+END
+Record.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/Record.java
+END

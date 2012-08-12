@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/Crowdsource/!svn/ver/51/res/layout
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Crowdsource/!svn/ver/33/res/layout/main.xml
+END
+crowdtalk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Crowdsource/!svn/ver/52/res/layout/crowdtalk.xml
+END
+tab_custom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Crowdsource/!svn/ver/52/res/layout/tab_custom.xml
+END
+map.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/Crowdsource/!svn/ver/8/res/layout/map.xml
+END
+private_message_thread.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Crowdsource/!svn/ver/52/res/layout/private_message_thread.xml
+END
+tabs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Crowdsource/!svn/ver/52/res/layout/tabs.xml
+END
+editprofile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Crowdsource/!svn/ver/50/res/layout/editprofile.xml
+END
+help.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Crowdsource/!svn/ver/50/res/layout/help.xml
+END
+privatemessagelist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/52/res/layout/privatemessagelist.xml
+END
+privatemessage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/52/res/layout/privatemessage.xml
+END
+message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Crowdsource/!svn/ver/30/res/layout/message.xml
+END
+profile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Crowdsource/!svn/ver/50/res/layout/profile.xml
+END
+login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Crowdsource/!svn/ver/50/res/layout/login.xml
+END
+changepassword.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/50/res/layout/changepassword.xml
+END
+talk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/Crowdsource/!svn/ver/1/res/layout/talk.xml
+END
+crowdchoice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Crowdsource/!svn/ver/51/res/layout/crowdchoice.xml
+END
+createaccount.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Crowdsource/!svn/ver/12/res/layout/createaccount.xml
+END

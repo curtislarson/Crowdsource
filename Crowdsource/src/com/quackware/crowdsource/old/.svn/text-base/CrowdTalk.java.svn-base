@@ -1,0 +1,421 @@
+package com.quackware.crowdsource.old;
+
+import java.util.ArrayList;
+import java.util.Map;
+
+
+import com.quackware.crowdsource.LocationFinder;
+import com.quackware.crowdsource.R;
+import com.quackware.crowdsource.LocationFinder.LocationResult;
+import com.quackware.crowdsource.R.array;
+import com.quackware.crowdsource.R.id;
+import com.quackware.crowdsource.R.layout;
+import com.quackware.crowdsource.R.menu;
+import com.quackware.crowdsource.R.string;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.ProgressDialog;
+import android.content.ComponentName;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.ServiceConnection;
+import android.location.Location;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.IBinder;
+import android.os.Message;
+import android.os.Messenger;
+import android.os.RemoteException;
+import android.util.Log;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.View.OnKeyListener;
+import android.widget.*;
+import android.widget.AdapterView.OnItemClickListener;
+
+public class CrowdTalk extends Activity implements OnItemClickListener, OnClickListener, OnKeyListener {
+
+	/**
+	 * Handler of incoming messages from service.
+	 */
+	class IncomingHandler extends Handler {
+		@Override
+		public void handleMessage(Message msg) {
+			switch (msg.what) {
+			case ServerService.MSG_INITIAL_CONNECT:
+				boolean result = (Boolean)msg.obj;
+				if(result)
+				{
+					connectingDialog.dismiss();
+					//Begin the runnable that will keep track of when we are polling the server.
+					pollHandler.postDelayed(pollRunnable, POLL_TIMER);
+				}
+				else
+				{
+					//We were unable to connect to the server. Notify the user.
+				} 
+				break;
+			case ServerService.MSG_POLL_MSG:
+				//If we received a message from the server.
+				if(msg.obj != null)
+				{
+					Utility.resetPollTracker();
+					ArrayList<Speech> newMessages = (ArrayList<Speech>)msg.obj;
+					addMessagesToGUI(newMessages);
+					POLL_TIMER = 1000;
+					POLL_TIMER_INC = 0;
+				}
+				//We did not receive a message from the server.
+				else
+				{
+					POLL_TIMER = Utility.getPollTime(POLL_TIMER, POLL_TIMER_INC);
+					POLL_TIMER_INC = Utility.getPollInc();
+				}
+				pollHandler.postDelayed(pollRunnable, POLL_TIMER);
+
+				break;
+			case ServerService.MSG_SEND_MSG:
+				//We should probably poll the server since we are not immediately adding the message sent to the view.
+				//This way everything will be synced and there will be no delay when the user sends a message and it appears.
+				POLL_TIMER = 1000;
+				POLL_TIMER_INC = 0;
+				pollHandler.postDelayed(pollRunnable, POLL_TIMER);
+				break;
+			case ServerService.MSG_REPORT_CONTENT:
+				Toast.makeText(getApplicationContext(),"Thank you, your report has been received.",Toast.LENGTH_SHORT).show();
+				break;
+			case ServerService.MSG_BLOCK_USER:
+				Toast.makeText(getApplicationContext(),"The user has been successfully blocked.",Toast.LENGTH_SHORT).show();
+				break;
+			default:
+				super.handleMessage(msg);
+			}
+		}
+	}
+	private static final int CONNECTING_DIALOG = 1111;
+	
+	private ProgressDialog connectingDialog;
+
+	ArrayAdapter<Speech> textAdapter;
+	Messenger mService = null;  
+
+	private boolean mIsBound;
+
+	private Location _location;
+	private static int POLL_TIMER = 1000;
+
+
+	private static int POLL_TIMER_INC = 0;
+
+	final Messenger mMessenger = new Messenger(new IncomingHandler());
+
+	private Handler pollHandler = new Handler();
+
+	private Runnable pollRunnable = new Runnable() {
+
+		public void run() {
+			XMLRequest req = new XMLRequest(ServerService.ACTION_POLL,"Poll Timer: " + POLL_TIMER + ", Poll Timer Inc: " + POLL_TIMER_INC,_location);
+			Message m = Message.obtain(null, ServerService.MSG_POLL_MSG, req);
+			m.replyTo = mMessenger;
+			try 
+			{
+				mService.send(m);
+			} 
+			catch (RemoteException e) 
+			{
+				e.printStackTrace();
+			}
+
+			//pollHandler.postDelayed(this, POLL_TIMER);
+		}
+
+	};
+	
+	private Handler locationHandler = new Handler();
+
+	private Runnable locationRunnable = new Runnable()
+	{
+		public void run()
+		{
+			LocationFinder lf = new LocationFinder();
+			//boolean canFind = lf.getLocation(CrowdTalk.this, locationResult);
+			boolean canFind = false;
+			if(!canFind)
+			{
+				//We cannot do anything to find their location, therefore they cannot use this application.
+			}
+
+			//5 minutes till we try to update location (We might want to change this)
+			locationHandler.postDelayed(this, 300000);
+		}
+	};
+	public LocationResult locationResult = new LocationResult()
+	{  	
+
+		@Override
+		public void gotLocation(Location location) {
+			if(location==null)
+			{
+				//Something went wrong
+				Log.e("Location", "Unable to find location, location returned null");
+			}
+			if(connectingDialog != null)
+			{
+				_location = location;
+
+				//Now that we have the location we can contact the server.
+				try
+				{
+					XMLRequest req = new XMLRequest(ServerService.ACTION_CONNECT,ServerService.BLANK_MESSAGE,_location);
+					Message m = Message.obtain(null, ServerService.MSG_INITIAL_CONNECT, req);
+					m.replyTo = mMessenger;
+					mService.send(m);
+				}
+				catch(Exception ex)
+				{
+
+				}
+
+			}
+			else
+			{
+				//We are just updating the location...
+				_location = location;
+			}
+
+		};
+
+	};
+
+	private ServiceConnection mConnection = new ServiceConnection() {
+		public void onServiceConnected(ComponentName className, IBinder service) {
+
+			mService = new Messenger(service);
+			LocationFinder lf = new LocationFinder();
+			//boolean canFind = lf.getLocation(CrowdTalk.this, locationResult);
+			boolean canFind = false;
+			if(!canFind)
+			{
+				//We cannot do anything to find their location, therefore they cannot use this application.
+			}
+
+			showDialog(CONNECTING_DIALOG);
+			//We use mService.send();
+			//http://developer.android.com/reference/android/app/Service.html
+
+		}
+
+		public void onServiceDisconnected(ComponentName className) {
+			// This is called when the connection with the service has been
+			// unexpectedly disconnected -- that is, its process crashed.
+			// Because it is running in our same process, we should never
+			// see this happen.
+			mService = null;
+			//Toast.makeText(Binding.this, R.string.local_service_disconnected,
+			//        Toast.LENGTH_SHORT).show();
+		}
+	};
+	private void addMessagesToGUI(ArrayList<Speech> incomingMessages)
+	{
+		for(int i = 0;i<incomingMessages.size();i++)
+		{		
+			textAdapter.add(incomingMessages.get(0));
+		}
+	}
+	
+	void doBindService() {
+		// Establish a connection with the service.  We use an explicit
+		// class name because we want a specific service implementation that
+		// we know will be running in our own process (and thus won't be
+		// supporting component replacement by other applications).
+		bindService(new Intent(CrowdTalk.this, 
+				ServerService.class), mConnection, Context.BIND_AUTO_CREATE);
+		mIsBound = true;
+	}
+
+	void doUnbindService() {
+		if (mIsBound) {
+			if(mService != null)
+			{
+				try
+				{
+					//Message msg = Message.obtain(null,
+					//     ServerService.MSG_UNREGISTER_CLIENT);
+					//msg.replyTo = mMessenger;
+					//mService.send(msg);
+				}
+				catch(Exception ex) { }
+			}
+			// Detach our existing connection.
+			unbindService(mConnection);
+			mIsBound = false;
+		}
+	}
+
+	@Override
+	public void onClick(View v) {
+		EditText et = (EditText)findViewById(R.id.sendText);
+		switch(v.getId())
+		{
+		case R.id.sendButton:
+			XMLRequest req = new XMLRequest(ServerService.ACTION_SEND_MESSAGE,et.getText().toString(),_location);
+			Message m = Message.obtain(null, ServerService.MSG_SEND_MSG, req);
+			m.replyTo = mMessenger;
+			try {
+				mService.send(m);
+			} catch (RemoteException e1) {
+			}
+			//Clear the text box.
+			et.setText("");
+			break;
+		default:
+			break;
+		}
+		
+	}
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.talk);
+
+
+
+		ListView lv = (ListView)findViewById(R.id.chatListView);
+		//We need to also pass in an array of speeches...
+		textAdapter = new ArrayAdapter<Speech>(this,android.R.layout.simple_list_item_1);
+		lv.setAdapter(textAdapter);
+		lv.setOnItemClickListener(this);
+		
+		Button sendButton = (Button)findViewById(R.id.sendButton);
+		sendButton.setOnClickListener(this);
+		
+		EditText et = (EditText)findViewById(R.id.sendText);
+		et.setOnKeyListener(this);
+		
+		doBindService();
+	}
+
+
+	//THIS AREA IS FOR GUI STUFF
+	
+
+	protected Dialog onCreateDialog(int id)
+	{
+		switch(id)
+		{
+		case CONNECTING_DIALOG:
+			connectingDialog = new ProgressDialog(this);
+			connectingDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+			connectingDialog.setMessage("Connecting to a crowd, please wait...");
+			connectingDialog.setCancelable(false);
+			return connectingDialog;
+		default:
+			return null;
+		}
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu)
+	{
+		MenuInflater inflator = getMenuInflater();
+		inflator.inflate(R.menu.menu,menu);
+		return true;
+	}
+
+	@Override
+	public void onDestroy()
+	{
+		super.onDestroy();
+		doUnbindService();
+	}
+	
+	@Override
+	public void onItemClick(AdapterView<?> parent, View view, final int position, long id)
+	{
+		ListView lv = (ListView)findViewById(R.id.chatListView);
+		final Speech s = (Speech)lv.getItemAtPosition(position);
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setTitle(R.string.chooseAction);
+		builder.setItems(R.array.crowdtalk_user_options, new DialogInterface.OnClickListener() {
+
+			@Override
+			public void onClick(DialogInterface dialog, int item) {
+				XMLRequest req;
+				Message m;
+				switch(item)
+				{
+				//Case 0 is Report Comment
+				case 0:
+					req = new XMLRequest(ServerService.ACTION_REPORT_CONTENT,s.getMessage(),_location);
+					m = Message.obtain(null, ServerService.MSG_REPORT_CONTENT, req);
+					m.replyTo = mMessenger;
+					try {
+						mService.send(m);
+					} catch (RemoteException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					
+					break;
+					//Case 1 is Block User
+				case 1:
+					req = new XMLRequest(ServerService.ACTION_BLOCK_USER,s.getMessage(),_location);
+					m = Message.obtain(null, ServerService.MSG_REPORT_CONTENT, req);
+					m.replyTo = mMessenger;
+					try {
+						mService.send(m);
+					} catch (RemoteException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					break;
+				}
+			}
+		});
+
+	}
+
+	@Override
+	public boolean onKey(View v, int keyCode, KeyEvent event) {
+		switch(v.getId())
+		{
+		case R.id.sendText:
+		if((event.getAction() == KeyEvent.ACTION_DOWN) && (keyCode == KeyEvent.KEYCODE_ENTER))
+		{
+			//Just call the onclick method for the send button...
+			onClick(findViewById(R.id.sendButton));
+			return true;
+		}
+		else
+			return false;
+		default:
+			return false;
+		}
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item)
+	{
+		switch(item.getItemId())
+		{
+		case R.id.help:
+			return true;
+		case R.id.quit:
+			this.finish();
+			return true;
+		default:
+			return true;
+		}
+
+	}
+
+}
+

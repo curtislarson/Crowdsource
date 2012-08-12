@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/utils
+END
+base32.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/utils/base32.java
+END
+base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/utils/base64.java
+END
+hexdump.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/utils/hexdump.java
+END
+HMAC.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/utils/HMAC.java
+END
+base16.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Crowdsource/!svn/ver/1/src/org/xbill/DNS/utils/base16.java
+END

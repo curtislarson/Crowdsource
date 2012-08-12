@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/listener
+END
+ItemEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/listener/ItemEventListener.java
+END
+NodeConfigListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/listener/NodeConfigListener.java
+END
+ItemDeleteListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/listener/ItemDeleteListener.java
+END

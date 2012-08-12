@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/ext/history
+END
+AgentChatSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/ext/history/AgentChatSession.java
+END
+AgentChatHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/ext/history/AgentChatHistory.java
+END
+ChatMetadata.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/ext/history/ChatMetadata.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/Crowdsource/!svn/ver/51/
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/Crowdsource/!svn/ver/8/default.properties
+END
+overview.html
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/Crowdsource/!svn/ver/1/overview.html
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Crowdsource/!svn/ver/52/AndroidManifest.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/Crowdsource/!svn/ver/1/.project
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/Crowdsource/!svn/ver/1/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/Crowdsource/!svn/ver/1/.classpath
+END

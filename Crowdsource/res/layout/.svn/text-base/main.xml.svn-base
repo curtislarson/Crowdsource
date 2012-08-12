@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/cs_linear_layout" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.quackware.crowdsource.ui.widget.DashboardLayout
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<Button android:id="@+id/btn_login" android:text="@string/btn_login"
+			android:drawableTop="@drawable/cs_btn_login" style="@style/DashboardButton" />
+		<Button android:id="@+id/btn_login_anon" android:text="@string/btn_login_anon"
+			android:drawableTop="@drawable/cs_btn_login_anon" style="@style/DashboardButton" />
+		<Button android:id="@+id/btn_create_account" android:text="@string/btn_create_account"
+			android:drawableTop="@drawable/cs_btn_register" style="@style/DashboardButton" />
+		<Button android:id="@+id/btn_settings" android:text="@string/btn_settings"
+			android:drawableTop="@drawable/cs_btn_settings" style="@style/DashboardButton" />
+			<Button android:id="@+id/btn_help" android:text="@string/btn_help"
+			android:drawableTop="@drawable/cs_btn_help" style="@style/DashboardButton" />
+			<Button android:id="@+id/btn_exit" android:text="@string/btn_exit"
+			android:drawableTop="@drawable/cs_btn_exit" style="@style/DashboardButton" />
+	</com.quackware.crowdsource.ui.widget.DashboardLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Crowdsource/!svn/ver/51/src/com/quackware/crowdsource
+END
+Crowd.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/Crowd.java
+END
+Utility.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/Utility.java
+END
+LocationFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/LocationFinder.java
+END
+MyDataStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/MyDataStore.java
+END
+Profile.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/Profile.java
+END
+ServerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ServerUtil.java
+END
+MyApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/MyApplication.java
+END
+ParcelableGeoPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/52/src/com/quackware/crowdsource/ParcelableGeoPoint.java
+END

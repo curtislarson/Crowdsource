@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter
+END
+PacketFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/PacketFilter.java
+END
+AndFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/AndFilter.java
+END
+PacketExtensionFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/PacketExtensionFilter.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/package.html
+END
+NotFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/NotFilter.java
+END
+OrFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/OrFilter.java
+END
+PacketIDFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/PacketIDFilter.java
+END
+PacketTypeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/PacketTypeFilter.java
+END
+IQTypeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/IQTypeFilter.java
+END
+MessageTypeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/MessageTypeFilter.java
+END
+ToContainsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/ToContainsFilter.java
+END
+ThreadFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/ThreadFilter.java
+END
+FromContainsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/FromContainsFilter.java
+END
+FromMatchesFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/filter/FromMatchesFilter.java
+END

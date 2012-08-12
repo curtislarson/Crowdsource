@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/commands
+END
+LocalCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/commands/LocalCommand.java
+END
+AdHocCommandManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/commands/AdHocCommandManager.java
+END
+LocalCommandFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/commands/LocalCommandFactory.java
+END
+RemoteCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/commands/RemoteCommand.java
+END
+AdHocCommandNote.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/commands/AdHocCommandNote.java
+END
+AdHocCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/commands/AdHocCommand.java
+END

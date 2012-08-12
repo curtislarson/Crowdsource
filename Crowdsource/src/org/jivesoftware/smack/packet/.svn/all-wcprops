@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet
+END
+StreamError.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/StreamError.java
+END
+Packet.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/Packet.java
+END
+IQ.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/IQ.java
+END
+Privacy.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/Privacy.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/Message.java
+END
+Bind.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/Bind.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/package.html
+END
+Presence.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/Presence.java
+END
+PrivacyItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/PrivacyItem.java
+END
+Registration.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/Registration.java
+END
+Authentication.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/Authentication.java
+END
+PacketExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/PacketExtension.java
+END
+DefaultPacketExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/DefaultPacketExtension.java
+END
+Session.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/Session.java
+END
+RosterPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/RosterPacket.java
+END
+XMPPError.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/packet/XMPPError.java
+END

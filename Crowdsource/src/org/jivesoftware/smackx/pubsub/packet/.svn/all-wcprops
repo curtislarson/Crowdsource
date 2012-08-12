@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/packet
+END
+SyncPacketSend.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/packet/SyncPacketSend.java
+END
+PubSubNamespace.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/packet/PubSubNamespace.java
+END
+PubSub.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/packet/PubSub.java
+END

@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx
+END
+GroupChatInvitation.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/GroupChatInvitation.java
+END
+XHTMLText.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/XHTMLText.java
+END
+DefaultMessageEventRequestListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/DefaultMessageEventRequestListener.java
+END
+GatewayManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/GatewayManager.java
+END
+LastActivityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/LastActivityManager.java
+END
+RosterExchangeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/RosterExchangeListener.java
+END
+RemoteRosterEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/RemoteRosterEntry.java
+END
+PrivateDataManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/PrivateDataManager.java
+END
+RosterExchangeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/RosterExchangeManager.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/package.html
+END
+MessageEventManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/MessageEventManager.java
+END
+MultipleRecipientInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/MultipleRecipientInfo.java
+END
+CapsVerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/CapsVerListener.java
+END
+FormField.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/FormField.java
+END
+ChatStateManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/ChatStateManager.java
+END
+SharedGroupManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/SharedGroupManager.java
+END
+PEPManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/PEPManager.java
+END
+MessageEventRequestListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/MessageEventRequestListener.java
+END
+PEPListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/PEPListener.java
+END
+ChatStateListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/ChatStateListener.java
+END
+XHTMLManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/XHTMLManager.java
+END
+EntityCapsManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/EntityCapsManager.java
+END
+OfflineMessageManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/OfflineMessageManager.java
+END
+Gateway.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/Gateway.java
+END
+MultipleRecipientManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/MultipleRecipientManager.java
+END
+Form.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/Form.java
+END
+ReportedData.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/ReportedData.java
+END
+NodeInformationProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/NodeInformationProvider.java
+END
+ChatState.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/ChatState.java
+END
+MessageEventNotificationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/MessageEventNotificationListener.java
+END
+ServiceDiscoveryManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/ServiceDiscoveryManager.java
+END
+OfflineMessageHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/OfflineMessageHeader.java
+END

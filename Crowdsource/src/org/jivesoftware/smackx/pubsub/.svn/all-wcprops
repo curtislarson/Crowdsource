@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub
+END
+Affiliation.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/Affiliation.java
+END
+SubscribeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/SubscribeForm.java
+END
+UnsubscribeExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/UnsubscribeExtension.java
+END
+PubSubManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/PubSubManager.java
+END
+FormNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/FormNode.java
+END
+PayloadItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/PayloadItem.java
+END
+OptionsExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/OptionsExtension.java
+END
+FormType.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/FormType.java
+END
+SubscriptionEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/SubscriptionEvent.java
+END
+EventElementType.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/EventElementType.java
+END
+ItemDeleteEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/ItemDeleteEvent.java
+END
+NodeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/NodeType.java
+END
+PublishModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/PublishModel.java
+END
+PresenceState.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/PresenceState.java
+END
+ChildrenAssociationPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/ChildrenAssociationPolicy.java
+END
+EmbeddedPacketExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/EmbeddedPacketExtension.java
+END
+ConfigureForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/ConfigureForm.java
+END
+SubscriptionsExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/SubscriptionsExtension.java
+END
+AccessModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/AccessModel.java
+END
+GetItemsRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/GetItemsRequest.java
+END
+ConfigurationEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/ConfigurationEvent.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/Node.java
+END
+PublishItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/PublishItem.java
+END
+EventElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/EventElement.java
+END
+ConfigureNodeFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/ConfigureNodeFields.java
+END
+CollectionNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/CollectionNode.java
+END
+FormNodeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/FormNodeType.java
+END
+LeafNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/LeafNode.java
+END
+ItemsExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/ItemsExtension.java
+END
+ItemPublishEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/ItemPublishEvent.java
+END
+NodeExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/NodeExtension.java
+END
+Subscription.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/Subscription.java
+END
+SimplePayload.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/SimplePayload.java
+END
+AffiliationsExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/AffiliationsExtension.java
+END
+NodeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/NodeEvent.java
+END
+SubscribeOptionFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/SubscribeOptionFields.java
+END
+ItemReply.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/ItemReply.java
+END
+SubscribeExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/SubscribeExtension.java
+END
+RetractItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/RetractItem.java
+END
+PubSubElementType.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/PubSubElementType.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/Item.java
+END

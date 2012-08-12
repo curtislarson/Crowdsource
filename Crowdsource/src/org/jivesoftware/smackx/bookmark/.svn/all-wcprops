@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/bookmark
+END
+Bookmarks.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/bookmark/Bookmarks.java
+END
+SharedBookmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/bookmark/SharedBookmark.java
+END
+BookmarkedURL.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/bookmark/BookmarkedURL.java
+END
+BookmarkManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/bookmark/BookmarkManager.java
+END
+BookmarkedConference.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/bookmark/BookmarkedConference.java
+END

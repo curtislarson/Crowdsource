@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback
+END
+PasswordCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback/PasswordCallback.java
+END
+NameCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback/NameCallback.java
+END
+LanguageCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback/LanguageCallback.java
+END
+ConfirmationCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback/ConfirmationCallback.java
+END
+ChoiceCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback/ChoiceCallback.java
+END
+UnsupportedCallbackException.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback/UnsupportedCallbackException.java
+END
+CallbackHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback/CallbackHandler.java
+END
+Callback.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback/Callback.java
+END
+TextOutputCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback/TextOutputCallback.java
+END
+TextInputCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/auth/callback/TextInputCallback.java
+END

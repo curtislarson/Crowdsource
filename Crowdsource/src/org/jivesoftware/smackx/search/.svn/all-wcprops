@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/search
+END
+UserSearchManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/search/UserSearchManager.java
+END
+SimpleUserSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/search/SimpleUserSearch.java
+END
+UserSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/search/UserSearch.java
+END

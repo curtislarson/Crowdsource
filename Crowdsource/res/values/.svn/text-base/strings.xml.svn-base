@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Crowdsource!</string>
+    <string name="app_name">CrowdSource</string>
+<string name="btn_login">Login</string>
+<string name="btn_settings">Settings</string>
+<string name="btn_create_account">Create an Account</string>
+<string name="btn_login_anon">Login Anonymously</string>
+<string name="btn_exit">Exit</string>
+<string name="btn_help">Help</string>
+<string name="ct">CrowdTalk</string>
+<string name="send">Send</string>
+<string name="chooseAction">Choose Action</string>
+<string name="help">Help</string>
+<string name="quit">Quit</string>
+<string name="exit">Exit</string>
+<string name="save">Save</string>
+<string name="cancel">Cancel</string>
+<string name="welcome">Welcome to CrowdSource!</string>
+<string name="viewmap">View Map</string>
+<string name="viewProfile">View Profile</string>
+<string name="findLocation">Searching for location...</string>
+<string name="ip">24.145.116.243</string>
+<string name="creatingAccount">Creating Account...</string>
+<string name="loggingIn">Logging In...</string>
+<string name="buildCrowdList">Building Crowd List...</string>
+<string name="buildMap">Building Map Points...</string>
+<string name="loadProfile">Loading Profile...</string>
+<string name="serverConnect">Connecting to Server...</string>
+<string name="compose_hint">Type to compose</string>
+<!-- map test key for curtputer 0T8qr9wGZ5bNM48cbMY8lQokZSNDgA-4Kt-9IuA -->
+<!-- map test key for cr-48  0T8qr9wGZ5bO9rpVG3ntRWjRkrTwao4CcebHQFg-->
+<string name="map_test_key">0T8qr9wGZ5bO9rpVG3ntRWjRkrTwao4CcebHQFg</string>
+<string-array name="crowdtalk_user_options">
+<item>View Profile</item>
+<item>Private Message</item>
+<item>Block User</item>
+<item>Report Comment</item>
+</string-array>
+<!--profile.xml strings-->
+<string name="age">Age:</string>
+<string name="activities">Activities:</string>
+<string name="location">Location:</string>
+<string name="about_me">About Me:</string>
+<string name="interests">Interests:</string>
+<string name="sex">Gender:</string>
+<string name="name">Name:</string>
+<string name="username">Username:</string>
+<string name="edit_profile">Edit Profile</string>
+	<string-array name="crowdRadiusChoices">
+	<item>15 miles</item>
+	<item>30 miles</item>
+	<item>50 miles</item>
+	<item>100 miles</item>
+	</string-array>
+	<string-array name="crowdRadiusNumbers">
+	<item>15</item>
+	<item>30</item>
+	<item>50</item>
+	<item>100</item>
+	</string-array>
+</resources>

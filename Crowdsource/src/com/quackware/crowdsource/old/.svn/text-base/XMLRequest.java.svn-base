@@ -1,0 +1,123 @@
+package com.quackware.crowdsource.old;
+
+import java.io.StringWriter;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.xmlpull.v1.XmlSerializer;
+
+import com.quackware.crowdsource.ui.CrowdSource;
+
+import android.location.Location;
+import android.util.Xml;
+
+public class XMLRequest {
+	
+	private String _action;
+	private String _message;
+	private Location _location;
+	private String _id;
+	
+	//I want to send a connect message
+	//I send the server with action=connect
+	//I also need to provide my position and id
+	
+	public XMLRequest(String action, String message, Location location)
+	{
+		_action = action;
+		_message = message;
+		_location = location;
+		//_id = CrowdSource.uid;
+	}
+	
+	public String toXML()
+	{
+		XmlSerializer serializer = Xml.newSerializer();
+		StringWriter writer = new StringWriter();
+		try 
+		{
+			serializer.setOutput(writer);
+	        serializer.startDocument("UTF-8", true);
+	        
+	        serializer.startTag("", "request");
+	        serializer.startTag("", "action");
+	        serializer.text(_action);
+	        serializer.endTag("", "action");
+	        serializer.startTag("", "message");
+	        serializer.text(_message);
+	        serializer.endTag("", "message");
+	        serializer.startTag("", "id");
+	        serializer.text(_id);
+	        serializer.endTag("", "id");
+	        serializer.startTag("", "latitude");
+	        serializer.text("" + _location.getLatitude());
+	        serializer.endTag("", "latitude");
+	        serializer.startTag("", "longitude");
+	        serializer.text("" + _location.getLongitude());
+	        serializer.endTag("", "longitude");
+	        serializer.endTag("", "request");
+
+	        serializer.endDocument();
+	        return writer.toString();
+		}
+		catch(Exception ex)
+		{
+			return null;
+		}
+		
+//		Document doc = docBuilder.newDocument();
+//		Element rootElement = doc.createElement("request");
+//		
+//		Element action = doc.createElement("action");
+//		action.appendChild(doc.createTextNode(_action));
+//		rootElement.appendChild(action);
+//		
+//		Element message = doc.createElement("message");
+//		message.appendChild(doc.createTextNode(_message));
+//		rootElement.appendChild(message);
+//		
+//		Element id = doc.createElement("id");
+//		id.appendChild(doc.createTextNode(_id));
+//		rootElement.appendChild(id);
+//		
+//		Element lat = doc.createElement("latitude");
+//		lat.appendChild(doc.createTextNode("" + _location.getLatitude()));
+//		rootElement.appendChild(lat);
+//		
+//		Element longi = doc.createElement("longitude");
+//		longi.appendChild(doc.createTextNode("" + _location.getLongitude()));
+//		rootElement.appendChild(longi);
+//		
+//		TransformerFactory transformerFactory = TransformerFactory.newInstance();
+//		Transformer transformer = null;
+//		try {
+//			transformer = transformerFactory.newTransformer();
+//		} catch (TransformerConfigurationException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		DOMSource source = new DOMSource(doc);
+//		doc.
+//		String returnString = null;
+//		StreamResult result = new StreamResult(returnString);
+//		try {
+//			transformer.transform(source, result);
+//		} catch (TransformerException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}	
+//		
+//		return returnString;
+	}
+
+}

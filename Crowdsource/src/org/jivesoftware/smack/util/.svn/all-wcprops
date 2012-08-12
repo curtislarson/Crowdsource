@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util/StringUtils.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util/Base64.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util/package.html
+END
+DNSUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util/DNSUtil.java
+END
+PacketParserUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util/PacketParserUtils.java
+END
+WriterListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util/WriterListener.java
+END
+ReaderListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util/ReaderListener.java
+END
+ObservableWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util/ObservableWriter.java
+END
+ObservableReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util/ObservableReader.java
+END
+Cache.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smack/util/Cache.java
+END

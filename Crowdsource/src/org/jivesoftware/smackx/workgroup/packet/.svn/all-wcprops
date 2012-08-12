@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet
+END
+TranscriptsProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/TranscriptsProvider.java
+END
+AgentWorkgroups.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/AgentWorkgroups.java
+END
+QueueOverview.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/QueueOverview.java
+END
+TranscriptProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/TranscriptProvider.java
+END
+RoomTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/RoomTransfer.java
+END
+UserID.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/UserID.java
+END
+DepartQueuePacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/DepartQueuePacket.java
+END
+OccupantsInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/OccupantsInfo.java
+END
+OfferRequestProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/OfferRequestProvider.java
+END
+MonitorPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/MonitorPacket.java
+END
+MetaDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/MetaDataProvider.java
+END
+WorkgroupInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/WorkgroupInformation.java
+END
+TranscriptSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/TranscriptSearch.java
+END
+Transcripts.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/Transcripts.java
+END
+QueueUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/QueueUpdate.java
+END
+AgentStatusRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/AgentStatusRequest.java
+END
+AgentStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/AgentStatus.java
+END
+Transcript.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/Transcript.java
+END
+RoomInvitation.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/RoomInvitation.java
+END
+AgentInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/AgentInfo.java
+END
+OfferRevokeProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/OfferRevokeProvider.java
+END
+SessionID.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/SessionID.java
+END
+QueueDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/packet/QueueDetails.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/settings
+END
+ChatSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/settings/ChatSettings.java
+END
+SearchSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/settings/SearchSettings.java
+END
+GenericSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/settings/GenericSettings.java
+END
+ChatSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/settings/ChatSetting.java
+END
+OfflineSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/settings/OfflineSettings.java
+END
+SoundSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/settings/SoundSettings.java
+END
+WorkgroupProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/workgroup/settings/WorkgroupProperties.java
+END

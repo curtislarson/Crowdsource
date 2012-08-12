@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/preferenceLayout">
+	<PreferenceCategory android:title="Account Preferences">
+		<PreferenceScreen android:key="userAccountPreferenceScreen"
+			android:title="Account Information" android:summary="Edit Account Information">
+
+			<!--  <EditTextPreference android:summary="Your account username." android:defaultValue=""
+				android:title="Username" android:key="editTextUsername" android:name="Username"/>
+			<EditTextPreference android:summary="Enter Password" android:defaultValue=""
+				android:title="Password" android:key="editTextPassword" android:inputType="textPassword" android:name="Password"/>
+			<EditTextPreference android:summary="Confirm Password" android:defaultValue=""
+				android:title="Retype Password" android:key="editTextPassword2"
+				android:name="Retype Password" android:inputType="textPassword"/>-->
+
+			<CheckBoxPreference android:title="Login Automatically"
+				android:defaultValue="false" android:summary="Login automatically on application start."
+				android:key="loginAutoPref" />
+			<CheckBoxPreference android:title="Enable Profile"
+				android:defaultValue="true" android:summary="Allow other users to view your profile."
+				android:key="enableProfilePref" />
+			<!--<Preference android:title="Save Preferences"
+				android:summary="Tap to save preferences" android:key="savePrefs" android:enabled="false"/>-->
+
+		<Preference android:key="changePassword" android:title="Change Password" android:summary="Change your password"></Preference>
+</PreferenceScreen>
+		<!--  <PreferenceScreen android:key="userProfilePreferenceScreen"
+			android:title="Account Profile" android:summary="Edit Account Profile">
+			
+			</PreferenceScreen>-->
+		<PreferenceScreen android:key="userAccountBlockList"
+			android:title="Manage Blocked Users" android:summary="Add, Edit, and Remove Blocked Users">
+			
+			
+			
+		</PreferenceScreen>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="Application Preferences">
+	<CheckBoxPreference
+                        android:title="Show in Status Bar"
+                        android:defaultValue="true"
+                        android:summary="Access a crowd from the status bar when it is running."
+                        android:key="checkboxStatusBar" />
+                        <EditTextPreference android:title="Location Check Interval" android:key="editTextLocationInterval" android:defaultValue="10" android:summary="Set the interval between location checks in minutes."/>
+                        <ListPreference android:summary="The radius in miles to search for a crowd." android:title="Crowd Search Radius" android:key="crowdRadius" android:defaultValue="50 miles" android:entries="@array/crowdRadiusChoices" android:entryValues="@array/crowdRadiusNumbers"></ListPreference>
+	</PreferenceCategory>
+</PreferenceScreen>  

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl
+END
+SaslServerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl/SaslServerFactory.java
+END
+AuthorizeCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl/AuthorizeCallback.java
+END
+SaslServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl/SaslServer.java
+END
+SaslException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl/SaslException.java
+END
+SaslClientFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl/SaslClientFactory.java
+END
+Sasl.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl/Sasl.java
+END
+AuthenticationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl/AuthenticationException.java
+END
+RealmChoiceCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl/RealmChoiceCallback.java
+END
+RealmCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl/RealmCallback.java
+END
+SaslClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Crowdsource/!svn/ver/1/src/org/apache/harmony/javax/security/sasl/SaslClient.java
+END

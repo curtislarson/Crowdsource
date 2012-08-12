@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider
+END
+SubscriptionProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/SubscriptionProvider.java
+END
+EventProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/EventProvider.java
+END
+RetractEventProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/RetractEventProvider.java
+END
+ConfigEventProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/ConfigEventProvider.java
+END
+SubscriptionsProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/SubscriptionsProvider.java
+END
+FormNodeProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/FormNodeProvider.java
+END
+SimpleNodeProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/SimpleNodeProvider.java
+END
+AffiliationsProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/AffiliationsProvider.java
+END
+ItemProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/ItemProvider.java
+END
+PubSubProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/PubSubProvider.java
+END
+AffiliationProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/AffiliationProvider.java
+END
+ItemsProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Crowdsource/!svn/ver/1/src/org/jivesoftware/smackx/pubsub/provider/ItemsProvider.java
+END
